@@ -1,0 +1,536 @@
+body {
+
+}
+h1 {
+	font-size: 2.25rem;
+}
+h2 {
+	font-size: 1.875rem;
+}
+.header {
+	height: 770px;
+	position: relative;
+	overflow: hidden;
+}
+.background-img {
+	overflow: hidden;
+	position: absolute;
+	right: -10%;
+	top: 0;
+	width: 72%;
+	height: 90%;
+	background: url(../img/cake5.jpg) no-repeat;
+	background-position: -50px 0px;
+	background-size: 114% 92%;  
+}
+.rtt {
+	position: absolute;
+	height: 360px;
+	width: 220px;
+	background: #fff;
+	transform: rotate(30deg);
+	left: -13%;
+	top: -13%;
+}
+.rtb {
+	position: absolute;
+	height: 430px;
+	width: 100%;
+	background: #fff;
+	transform: rotate(30deg);
+	top: 58%;
+	left: -18%;
+}
+.header-text {
+	position: relative;
+	left: -3%;
+	top: 25%;
+}
+.header-text h1 {
+	color: #115761;
+	margin-bottom: 20px;
+}
+.header-text h1:nth-child(2) {
+	color: #198391;
+}
+.header-text p{
+	font-size: 19px;
+	margin: 29px 0;
+}
+.header-text a {
+	margin-top: 15px;
+	width: auto;
+	border-radius: 24px;
+	opacity: .9;
+	background: #ED5D40;
+	padding: 12px 17px;
+	font-size: 19px;
+	color: #fff;
+	font-weight: 700;
+}
+.header form {
+	position: absolute;
+	left: 0;
+	height: 45px;
+	bottom: 170px;
+	left: 30%;
+	box-shadow: 1px 1px 16px #888;
+	border-radius: 24px;
+}
+.header form  input{
+	height: 100%;
+	width: 78%;
+	border-top-right-radius: 24px;
+	border-bottom-right-radius: 24px;
+	position: absolute;
+	left: 14%;
+	direction: rtl;
+	padding: 8px;
+	padding-left: 12px;
+	font-size: 1.1rem;
+}
+.header form button {
+	height: 99.8%;
+	width: 14%;
+	font-size: 18px;
+	float: left;
+	background: #48B1BF;
+	color: #fff;
+	border-top-left-radius: 24px;
+	border-bottom-left-radius: 24px;
+	position: absolute;
+	left: 0;
+}
+
+.navbar li {
+	width: auto;
+	height:100%;
+	padding: 10px 8px;
+	margin-top: 6px;
+}
+.navbar ul {
+	width: 500px;
+}
+.navbar a{
+	display: inline-block;
+	vertical-align: middle;
+	width: auto;
+	border-radius: 20px;
+	opacity: .7;
+	background: #0299aa;
+	padding: 12px 17px;
+	font-size: 16px;
+	color: #fff;
+	font-weight: 700;
+}
+#logo {
+	background: url(../img/maktab-logo-blue.png);
+	background-size: 100% 100%;
+	width: 77px;
+	height: 56px;
+	margin: 10px 10px;
+	position: absolute;
+}
+.plus-course {
+	position: relative;
+	top: -100px;
+	height: 280px;
+}
+.plus-course .col6 {
+	height: 142px;
+	border: 1px solid #aaa;
+}
+.plus-course  .col6 > div {
+	display: inline-block;
+	vertical-align: middle;
+	width: 48.6%;
+}
+.plus-course  .bck a {
+	display: inline-block;
+	width: 100%;
+	height: 139px;
+	background: url(../img/android.jpg) no-repeat;
+	background-size: cover;
+}
+.plus-course  .bck {
+	height: 100%;
+}
+.text{
+	height: 100%;
+	border-right: 1px solid #aaa;
+}
+.text  h4 {
+	margin-bottom: 20px;
+}
+.text h4, .text h5{
+	font-weight: 100 !important;
+	color: #177481;
+}
+.text .red {
+	color: red;
+}
+.title {
+	border-top: 1px solid #aaa;
+	height: 50px;
+}
+.title > div {
+	background: #23647a;
+	color: #fff;
+	padding: 12px;
+	width: 29%;
+	font-size: 1.6rem;
+	font-weight: 500;
+}
+.line {
+	border: 1px solid #8acecf;
+}
+.new-course .course-box{
+	box-shadow: 1px 1px 8px #999;
+	margin-top: 40px;
+}
+.course-box .top-box {
+	height: 160px;
+	width: 100%;
+	display: block;
+	background-size: 100% 100%;
+	margin: 0;
+	padding: 0;
+	position: relative;
+	top: -14px;
+}
+.box-bck1 {
+	background: url(../img/sadeghi21487598419.png);
+}
+.box-bck2 {
+	background: url(../img/setaredan-medeng1488564210.png);
+}
+.top-box p {
+	padding: 5px 9px;
+}
+.top-box h2 { 
+	padding: 25px 0;
+}
+.top-box  h2, .top-box p{
+	color: #fff;
+}
+.top-box .info-bar {
+   	width: 100%;
+   	height: 30px;
+   	position: absolute;
+   	bottom: 0;
+   	font-size: 1.2rem;
+   	font-weight: 500;
+   	background: #23A1CB;
+   
+}
+[ class*='text-bot'] {
+	padding-top: 20px;
+	height: 55px;
+}
+.text-bot1 {
+	color: #297E6A;
+	font-size: 1.34rem;
+}
+.text-bot2 {
+	color: #0F3C3D;
+	font-size: 1.2rem;
+}
+
+.cover {
+	width: 100%;
+	height: 100%;
+	background-color: #aaa;
+	background-color: rgba(8, 44, 48, 0.4);
+	position: absolute;
+	top:0;
+	left:0;
+	color: #fff;
+	font-size: 22px;
+	font-weight: 700;
+}
+.cover2 {
+	background-color: rgba(255, 255, 255, 0.7);
+	border-radius: 5px;
+}
+.show-all-new {
+	height: 38px;
+	box-shadow: 0 0 6px #7BC7E0;
+	background: #EBF7F7;
+	width: 21%;
+}
+.show-all-new h3 {
+	font-weight: 400;
+	padding-top: 1.5%;
+             border-radius: 5px;
+}
+.show-all {
+	height: 68px;
+	width: 38%;
+	padding-top: 1px;
+	background: #B1DEDF;
+}
+.show-all  a {
+	display: block;
+	width: 70%;
+	height: 80%;
+	border-radius: 5px;
+	background: #1D7879;
+}
+.show-all h2 {
+	color: #fff;
+	font-weight: 400;
+	padding-top: 10px; 
+}
+footer {
+	padding-left: 5%;
+	padding-top: 30px;
+	height: 200px;
+	background: #096F90;
+	color: #fff;
+	font-size: 1.125rem;
+	font-weight: 700;
+}
+.left-foot [type*="submit"] {
+	background: #ED5D40;
+	border-radius: 4px;
+	width: 10%;
+	height: 40px;
+	color: #fff;
+	font-size: 1.1rem;
+	font-weight: 600;
+	margin-right: 5px;
+}
+.left-foot [type*="email"]{
+	width: 38%;
+	height: 38px;
+	border-radius: 4px;
+	direction: rtl;
+	font-size: 1.1rem;
+	padding-right: 8px;
+	margin-right: 8px;
+}
+.left-foot label {
+	color: #fff;
+}
+.foot-logo {
+	width: 12%;
+	height: 90px;
+	background: url(../img/maktab-logo.png);
+	background-size: 100% 100%;
+	margin-left: 3%;
+}
+.foot-logo p{
+	color: #fff;
+	margin-top: 100px;
+}
+.nav-foot {
+	width: 40%;
+}
+.nav-foot li {
+	font-size: 1.1rem;
+	display: inline-block;
+	color: #fff;
+	padding: 0 10px;
+	padding-top: 2.2%;
+	border-right: 2px solid #30A99C;
+}
+
+@media only screen and (max-width: 1024px) {
+	html {
+		font-size: 14px;
+	}
+	.background-img {
+		position: absolute;
+		right: 0;
+		top: 0;
+		width: 100%;
+		height: 100%;
+		background: url(../img/cake5.jpg) no-repeat;
+		background-position: -50px 0px;
+		background-size: 114% 92%;  
+	}
+	.background-img .rtt , .rtb {
+		display: none;
+	}
+	.header form {
+		box-shadow: none;
+	}
+	.header form  input{
+		box-shadow: 1px 1px 16px #888;
+	}
+	.plus-course {
+		top: 0;
+	}
+	.plus-course .col6 {
+		display: block;
+		float: none;
+		margin: 0 auto;
+		margin-bottom: 30px;
+	}
+	.plus-course  .col6 > div {
+		display: inline-block;
+		vertical-align: middle;
+		width: 48.8%;
+	}
+	.plus-course  .bck a {
+		display: inline-block;
+		width: 100%;
+		height: 139px;
+		background: url(../img/android.jpg) no-repeat;
+		background-size: cover;
+	}
+	.new-course {
+		/*position: relative;
+		top: 150px; */
+		margin-top: 150px;
+	}
+	.left-foot, .nav-foot {
+		display: block;
+		width: 100%;
+		float: none;
+	}
+	.left-foot form {
+		border-bottom: 1px solid #B1DEDF;
+		width: auto;
+		width: 57%;
+		padding: 2% 0;
+		margin: 0 auto;
+	}
+	.nav-foot ul {
+		border-bottom: 1px solid #B1DEDF;
+		width: auto;
+		width: 57%;
+		padding: 2.2% 0;
+		margin: 0 auto;
+	} 
+	.foot-logo {
+		float: none;
+		position: absolute;
+		bottom: 75px;
+		left: 40%;
+		display: block;
+
+	}
+	footer {
+		height: 350px;
+		position: relative;
+	}
+	.show-all-new {
+		height: auto;
+		padding: 0.5% 0.2%;
+	}
+	.show-all-new h3 {
+		font-weight: 300;
+		font-size: 1.5rem;
+	}	
+	.nav-foot li {
+		padding-top: 0;
+	}	
+
+	.col4 {
+		width: 31%;
+	}
+
+}
+
+@media only screen and (max-width: 768px){
+
+	.header form {
+		width: 70%;
+		left: 15%;
+	}
+	.navbar li {
+		padding: 10px 5px;
+		font-size: .8rem;
+	}
+	.navbar ul {
+		width: 480px;
+	}
+	.cover2 {
+		width: 80%;
+		height: auto;
+	}
+	.plus-course  .col6 > div {
+		display: block;
+		width: 90%;
+	}
+	.plus-course .col6 {
+		height: auto;
+		border: 1px solid #aaa;
+	}
+	.text{
+		border-right: none;
+	}
+	.plus-course  {
+		margin-bottom: 450px;
+	}
+	.course-box {
+		width: 48%;
+		margin: 0 1%;
+	}
+	.show-all h2 {
+		font-size: 1.6rem;
+	}
+	.container {
+		padding: 4%;
+	}
+	h2{
+		font-size: 1.62rem;
+	}
+
+}
+@media only screen and (max-width: 480px ){
+	h2{
+		font-size: 1.62rem;
+	}
+	.foot-logo {
+		width: 20%;
+	}
+	.title > div {
+		width: 100%;
+	}
+	.course-box {
+		width: 80%;
+		margin: 0 2.9%;
+		display: block;
+		margin: 0 auto;
+	}
+	.show-all-new {
+		width: 95%;
+	}
+	.show-all  {
+		width: 95%;
+	}
+	.container {
+		padding: 4%;
+	}
+	.navbar li:nth-child(1), .navbar li:nth-child(2)  {
+		display: none;
+	}
+	.navbar ul {
+		width: auto;
+	}
+	.header form {
+		width: 70%;
+		left: 15%;
+	}
+	.header-text {
+		left: 6%;
+	}
+	footer {
+		padding: 10px 0;
+	}
+
+	.left-foot form {
+		width: 94%;
+		padding: 0;
+		margin: 0 auto;
+	}
+	.nav-foot ul {
+		width: 98%;
+		padding: 2.2% 0;
+	} 
+	.foot-logo {
+		bottom: 95px;
+	}
+}

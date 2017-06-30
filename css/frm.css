@@ -1,0 +1,197 @@
+/* part1 css reset */
+*, *:after, *:before {
+	margin:  0;
+	padding: 0;
+	color: #000;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+html {
+	font-size: 16px;	
+}
+body {
+	line-height: 1;
+}
+ul, ol {
+	list-style: none;
+}
+a {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+	color: #000;
+}
+button, input {
+	border: 0;
+}
+article, aside, details, dialog, figcaption, figure, footer, header,
+ main, mark, meter, nav, progress, section {
+	display: block;
+}
+/* grid */
+
+.row {
+ 	width: 100%;
+ 	display: block;
+}
+.row:after {
+	content: " ";
+	display: table;
+	clear: both;
+}
+.container {
+	width: 95%;
+	margin: 0 auto;
+}
+.container-full {
+	width: 100%;
+}
+[class*="col"] {
+	margin: 0 .9%;
+	float: left;
+	vertical-align: middle;
+}
+.col1 {
+	width: 6.5%;
+}
+.col2 {
+	width: 14.8%;
+}
+.col3 {
+	width: 31.41%;
+	background-color: purple;
+}
+.col4 {
+	width: 23.1%;
+}
+.col5 {
+	width: 39.7%;
+}
+.col6 {
+	width: 48%;
+}
+.col8 {
+	width: 64.6%;
+	background: blue;
+}
+.col9 {
+	width: 72.9%;
+}
+.col10 {
+	width: 81.2%;
+	background: #aaa;
+}
+.col11 {
+	width: 90%;
+}
+.col12 {
+	width: 97.8%;
+}
+.clearfix:after {
+	content: " ";
+	display: table;
+	clear: both;
+}
+
+/* typo */
+.hide {
+	display: none;
+}
+.text-center {
+	text-align: center;
+}
+.center {
+	display: block;
+	float: none;
+	margin: 0 auto;
+}
+.navbar {
+	height: 60px;
+}
+.navbar  ul{
+	display: inline-block;
+}
+.navbar li {
+	display: inline-block;
+	vertical-align: middle;
+}
+.right {
+	float: right;
+}
+.left {
+	float: left;
+}
+.line {
+	border-top: 1px solid #aaa;
+	display: block;
+	float: none;
+	margin: 0 auto;
+}
+.spacer1 {
+	margin: 10px;
+}
+.spacer2 {
+	margin: 20px;
+}
+.spacer3 {
+	margin: 30px;
+}
+.spacer4 {
+	margin: 40px;
+}
+.spacer6 {
+	margin: 60px;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-weight: 700;
+	margin: 10px 0;
+}
+h1 {
+	font-size: 36px;
+}
+h2{
+	font-size: 30px;
+}
+h3 {
+	font-size: 26px;
+}
+h4 {
+	font-size: 22px;
+}
+h5 {
+	font-size: 17px;
+}
+h6 {
+	font-size: 14px;
+}
+input:focus {
+    	outline-width: 0;
+}
+
+/* @media queries */
+
+@media only screen and (max-width: 480px) {
+	[class*="col"] {
+		float: none;
+		display: block;
+		width: 100%;
+	}
+}
+
+@media only screen  and (min-width: 481px)  and (max-width: 720px) {
+	.tablet div {
+		width: 31.37%;
+	}
+}
+
+@media only screen and (max-width: 960px) {
+	.desk {
+
+	}
+
+}
+@media only screen and (min-width: 961px) {
+
+}
